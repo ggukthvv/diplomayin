@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 productCard.innerHTML = `
                     <div class="container1">
                         <div class="img-container">
-                            <img class="img1" src="${product.image}" alt="${product.title}sss">
+                            <img class="img1" src="${product.image}" alt="${product.title}">
                         </div>
                         <div class="buttons">
-                            <input class="add" type="button" value="ADD TO CART">
+                            <input class="add" type="button" value="ADD TO CARTssssss">
                             <input class="buy" type="button" value="BUY NOW">
                         </div>
                         <div class="pricetag">25% OFF</div>
