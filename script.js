@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const productCard = document.createElement('div');
                 productCard.classList.add('card');
 
+
                 productCard.innerHTML = `
                     <div class="container1">
                         <div class="img-container">
