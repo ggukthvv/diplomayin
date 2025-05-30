@@ -1,0 +1,468 @@
+html {
+    max-width: auto;
+    height: 2500px;
+}
+
+.back {
+    height: 1250px;
+    background-color: rgb(231, 231, 231);
+}
+
+.page {
+
+    width: 100%;
+    height: 1250px;
+    background-color: rgb(231, 231, 231);
+
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(149, 148, 148);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.description {
+    position: relative;
+    margin: 30px;
+    padding: 20px;
+}
+
+.card {
+
+    margin: 20px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.enter {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter:hover {
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgb(115, 238, 197);
+}
+
+.sign:hover {
+    background-color: rgb(119, 119, 119);
+}
+
+.line {
+    width: 2px;
+    height: 49px;
+    background-color: black;
+
+}
+
+.login {
+    background-color: aquamarine;
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border: 2px solid black;
+    border-right: transparent;
+}
+
+.sign {
+    background-color: rgb(160, 160, 160);
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid black;
+    border-left: transparent
+}
+
+.card:hover {
+    .buttons {
+        opacity: 1;
+
+    }
+
+    .img-container:hover {
+        background-color: rgb(115, 238, 197);
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(83, 83, 83, 0.05);
+
+    }
+
+    .img1:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+
+    .img2:hover {
+
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+
+    .img3:hover {
+
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+
+    .img4:hover {
+
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+
+    .img5:hover {
+
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+
+    .img6:hover {
+
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+
+
+}
+
+.container1 {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.container2 {
+
+    height: 120px;
+
+}
+
+.img-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.img1 {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.img2 {
+    width: 230px;
+    height: 330px;
+}
+
+.img3 {
+    width: 230px;
+    height: 135pxx;
+}
+
+.img4 {
+    width: 240px;
+    height: 220px;
+}
+
+.img5 {
+    width: 270px;
+    height: 210px;
+}
+
+.img6 {
+    width: 280px;
+    height: 220px;
+}
+
+.buttons {
+    opacity: 0;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.1s;
+
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.add {
+    padding: 15px 25px;
+    border: 0px solid #ffffff;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: rgb(44, 44, 44);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: 2px;
+}
+
+.buy {
+    padding: 15px 25px;
+    border: 0px solid #ffffff;
+    background-color: rgb(244, 244, 244);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.buy:hover {
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: 2px;
+}
+
+.pricetag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(115, 238, 197);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 42px;
+    left: -42px;
+    transform: rotate(270deg);
+}
+
+.group {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 30px 30px;
+}
+
+.text1 {
+    text-align: start;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.text {
+    text-align: start;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.price {
+    text-align: start;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+del {
+    color: rgb(115, 238, 197);
+    margin-right: 20px;
+
+}
+
+.ending {
+    justify-content: center;
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    margin-top: 100px;
+    gap: 6px;
+}
+
+/* .pic1{
+    width:600px;
+    height:900px;
+    
+} */
+.pic1 .sales {
+    color: black
+}
+
+.pic3 img {
+    width: 650px;
+    height: 400px;
+
+}
+
+.pic4 {
+    display: flex;
+    width: 100%;
+    height: 534px;
+    gap: 6px;
+    margin-top: 2px;
+
+}
+
+.pic2 {
+
+    height: 100%;
+
+}
+
+.pic5 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 322px;
+    background-color: rgb(39, 118, 222);
+    z-index: 2;
+
+}
+
+.pic6 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 322px;
+    background-color: rgb(255, 182, 11);
+    z-index: 2;
+}
+
+.sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+
+}
+
+.sale {
+    width: 600px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    background-image: url('img/shoes1.png');
+}
+
+h2 {}
+
+.p3 {
+    font-weight: 0px;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.p2 {
+
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.shopnow {
+
+    width: 100px;
+    padding: 8px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid black;
+}
+
+.shopnow:hover {
+    background-color: rgb(47, 47, 47);
+    border: 1px solid rgb(47, 47, 47);
+}
+
+.question {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(115, 238, 197);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat {
+    width: 70px;
+    height: 70px;
+}
+
+.question:hover {
+    background-color: rgb(91, 189, 156);
+}
