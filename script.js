@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const productContainer = document.querySelector('.all');
 
-    fetch('https://shopapi20250530165108.azurewebsites.net/api/Products')
+    fetch('https://fakestoreapi.com/products')
         .then(response => response.json())
         .then(data => {
-            console.log('data', data)
+
             data.slice(0, 5).forEach(product => { // only first 6 products
                 const productCard = document.createElement('div');
                 productCard.classList.add('card');
